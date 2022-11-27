@@ -8,7 +8,10 @@ on tmux in the process.
 
 
 ## Usage
+```
+./mwssh.bash host01 host02
 ./mwssh.bash `cat /home/vince/git/osgpcq/mwssh/bp_liste.conf | awk {'printf "%s ",$0'}`
+```
 
 cat bp_liste.conf
 ```
@@ -26,9 +29,9 @@ Initially called BigRepuppet, I searched a name to push on github, and found
 lot of other projects!
 
 Here a quick list:
-* multissh [C](https://github.com/techhifzu/MultiSSH), the name is used for
+* [multissh](https://github.com/techhifzu/MultiSSH), This name is used too for
   others projects...
 * [ssh-multi](https://github.com/johnko/ssh-multi).
-* [tmssh](https://github.com/greymd/tmssh) Not maintened anymore, point now to
+* [tmssh](https://github.com/greymd/tmssh) Not maintained anymore, point now to
   tmux-xpanes.
 * [tmux-xpanes](https://github.com/greymd/tmux-xpanes) (This one looks great).
